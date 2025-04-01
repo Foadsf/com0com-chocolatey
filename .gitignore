@@ -1,0 +1,17 @@
+# Exclude build artifacts
+*.nupkg
+
+# Exclude Chocolatey logs or temporary files
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Exclude extracted installation files
+tools/com0com*.zip
+tools/com0com*
+
+# Exclude system files
+.DS_Store
+Thumbs.db
+desktop.ini
