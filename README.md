@@ -30,6 +30,7 @@ To use the package locally:
    ```
 2. Install the package via Chocolatey:
    ```powershell
+   choco pack
    choco install com0com --version="3.0.0.1-mod" --prerelease --source="."
    ```
 
